@@ -3,7 +3,8 @@ import { Provider } from "react-redux";
 import { Store, createStore, Reducer } from "redux";
 import React from "react";
 
-export default class ReduxRepository<T> {
+
+export class ReduxRepository<T> {
     private actions: Action<BasicAction, T>[];
     private initialState: T;
     constructor(actions: Action<BasicAction, T>[], initialState: T) {

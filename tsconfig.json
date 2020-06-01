@@ -16,9 +16,9 @@
   "include": [
     "src"
   ],
-  "files": [
-    "src/BasicRouter.tsx"
-  ],
+  // "files": [
+  //   "src/BasicRouter.tsx"
+  // ],
   "exclude": [
     "node_modules"
   ]

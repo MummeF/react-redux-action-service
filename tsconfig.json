@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "esModuleInterop": true,
+    "strict": true,
+    "module": "commonjs",
+    "jsx": "react",
+    "outDir": "./lib",
+    "declaration": true
+  },
+  "include": [
+    "src"
+  ],
+  "files": [
+    "src/BasicRouter.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

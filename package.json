@@ -1,0 +1,31 @@
+{
+  "name": "react-redux-action-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No Tests defined\"",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MummeF/react-redux-action-service.git"
+  },
+  "keywords": [
+    "react",
+    "routing"
+  ],
+  "author": "Felix Mumme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MummeF/react-redux-action-service/issues"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "homepage": "https://github.com/MummeF/react-redux-action-service#readme"
+}
